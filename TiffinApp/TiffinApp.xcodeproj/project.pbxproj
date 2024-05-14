@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A03A8628D9495CA8AC7197 /* Pods_TiffinApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870479C9D96ABA9D2927C1C0 /* Pods_TiffinApp.framework */; };
+		380A257C2408EAA30022C91E /* BookingDetailTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A257B2408EAA30022C91E /* BookingDetailTableHeaderView.swift */; };
+		380A257E2408EB510022C91E /* BookingDetailTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380A257D2408EB510022C91E /* BookingDetailTableHeaderView.xib */; };
+		380CFE4023F530D2009E8EDA /* tr_Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CFE3F23F530D2009E8EDA /* tr_Users.swift */; };
+		380CFE4323F533CE009E8EDA /* CommonDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CFE4223F533CE009E8EDA /* CommonDBHelper.swift */; };
+		380CFE4523F53FE5009E8EDA /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CFE4423F53FE4009E8EDA /* UserDetailModel.swift */; };
+		383015392580B1E100FCB49D /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383015372580B1E100FCB49D /* EventTableViewCell.swift */; };
+		3830153A2580B1E100FCB49D /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383015382580B1E100FCB49D /* EventTableViewCell.xib */; };
+		3830153D2580E0C100FCB49D /* EventTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3830153C2580E0C100FCB49D /* EventTableHeaderView.swift */; };
+		383015402580E28F00FCB49D /* EventTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3830153F2580E28F00FCB49D /* EventTableHeaderView.xib */; };
+		38353FFE2591C9060041797C /* EmployeesOrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38353FFC2591C9060041797C /* EmployeesOrderHistoryViewController.swift */; };
+		38353FFF2591C9060041797C /* EmployeesOrderHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38353FFD2591C9060041797C /* EmployeesOrderHistoryViewController.xib */; };
+		383540032591D5F50041797C /* EmployeesOrderHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383540012591D5F50041797C /* EmployeesOrderHistoryTableViewCell.swift */; };
+		383540042591D5F50041797C /* EmployeesOrderHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383540022591D5F50041797C /* EmployeesOrderHistoryTableViewCell.xib */; };
+		3838881723FA6A0100E0688B /* PickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838881623FA6A0100E0688B /* PickerManager.swift */; };
+		3838881923FACC3200E0688B /* WebAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838881823FACC3200E0688B /* WebAPIHelper.swift */; };
+		3838881B23FAD77000E0688B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838881A23FAD77000E0688B /* Parser.swift */; };
+		384CEDEE2588D086009BAD66 /* AddNewEventTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CEDEC2588D086009BAD66 /* AddNewEventTypeViewController.swift */; };
+		384CEDEF2588D086009BAD66 /* AddNewEventTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 384CEDED2588D086009BAD66 /* AddNewEventTypeViewController.xib */; };
+		384CEDF32588F97F009BAD66 /* AddNewEventTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CEDF12588F97F009BAD66 /* AddNewEventTypeTableViewCell.swift */; };
+		384CEDF42588F97F009BAD66 /* AddNewEventTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 384CEDF22588F97F009BAD66 /* AddNewEventTypeTableViewCell.xib */; };
+		3850348A2407BB9E00C0C102 /* OrderTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385034882407BB9E00C0C102 /* OrderTrackTableViewCell.swift */; };
+		3850348B2407BB9E00C0C102 /* OrderTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385034892407BB9E00C0C102 /* OrderTrackTableViewCell.xib */; };
+		3850348E2407EEBE00C0C102 /* SwipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3850348C2407EEBD00C0C102 /* SwipeTableViewCell.xib */; };
+		3850348F2407EEBE00C0C102 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850348D2407EEBE00C0C102 /* SwipeTableViewCell.swift */; };
+		3853FA3B23F3D28E001C5DA1 /* FoodBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA3923F3D28E001C5DA1 /* FoodBookViewController.swift */; };
+		3853FA3E23F3D374001C5DA1 /* FlippingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA3D23F3D374001C5DA1 /* FlippingLabel.swift */; };
+		3853FA4223F3D633001C5DA1 /* HeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3853FA4023F3D633001C5DA1 /* HeaderViewController.xib */; };
+		3853FA4323F3D633001C5DA1 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA4123F3D633001C5DA1 /* HeaderViewController.swift */; };
+		3853FA4923F3D655001C5DA1 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA4523F3D655001C5DA1 /* RightMenuViewController.swift */; };
+		3853FA4A23F3D655001C5DA1 /* RightMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA4623F3D655001C5DA1 /* RightMenuTableViewCell.swift */; };
+		3853FA4B23F3D655001C5DA1 /* RightMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3853FA4723F3D655001C5DA1 /* RightMenuViewController.xib */; };
+		3853FA4C23F3D655001C5DA1 /* RightMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3853FA4823F3D655001C5DA1 /* RightMenuTableViewCell.xib */; };
+		3853FA4E23F3D676001C5DA1 /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA4D23F3D676001C5DA1 /* CommonModel.swift */; };
+		3853FA5223F3D6BA001C5DA1 /* CommonWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3853FA5023F3D6BA001C5DA1 /* CommonWebViewController.xib */; };
+		3853FA5323F3D6BA001C5DA1 /* CommonWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FA5123F3D6BA001C5DA1 /* CommonWebViewController.swift */; };
+		3853FA5523F4004E001C5DA1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AC38D823F2E4D100BE62C3 /* Roboto-Bold.ttf */; };
+		3853FA5623F4004E001C5DA1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AC38D923F2E4D100BE62C3 /* Roboto-Italic.ttf */; };
+		3853FA5723F4004E001C5DA1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AC38DB23F2E4D300BE62C3 /* Roboto-Medium.ttf */; };
+		3853FA5823F4004E001C5DA1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AC38DA23F2E4D200BE62C3 /* Roboto-Regular.ttf */; };
+		3855ED222406A5DB001E6D29 /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3855ED202406A5DB001E6D29 /* CommonViewController.swift */; };
+		3855ED232406A5DB001E6D29 /* CommonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3855ED212406A5DB001E6D29 /* CommonViewController.xib */; };
+		38568C8325D6C2380095808C /* OfficeCabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38568C8125D6C2380095808C /* OfficeCabTableViewCell.swift */; };
+		38568C8425D6C2380095808C /* OfficeCabTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38568C8225D6C2380095808C /* OfficeCabTableViewCell.xib */; };
+		38568CAA25D6FA4B0095808C /* DriverOfficeCabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38568CA825D6FA4B0095808C /* DriverOfficeCabViewController.swift */; };
+		38568CAB25D6FA4C0095808C /* DriverOfficeCabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38568CA925D6FA4B0095808C /* DriverOfficeCabViewController.xib */; };
+		385A0D6624038F89004AA3CD /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A0D6424038F89004AA3CD /* MyAccountViewController.swift */; };
+		385A0D6724038F89004AA3CD /* MyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A0D6524038F89004AA3CD /* MyAccountViewController.xib */; };
+		385ACCE5259AE2DD00F2BC6B /* CompanyExpensesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385ACCE4259AE2DD00F2BC6B /* CompanyExpensesHeaderView.swift */; };
+		385ACCE8259AE30700F2BC6B /* CompanyExpensesHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385ACCE7259AE30700F2BC6B /* CompanyExpensesHeaderView.xib */; };
+		385FDF1B2599AA9200DFAE3A /* CompanyExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FDF192599AA9200DFAE3A /* CompanyExpensesViewController.swift */; };
+		385FDF1C2599AA9200DFAE3A /* CompanyExpensesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385FDF1A2599AA9200DFAE3A /* CompanyExpensesViewController.xib */; };
+		385FDF40259A257F00DFAE3A /* CompanyExpensesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FDF3E259A257F00DFAE3A /* CompanyExpensesTableViewCell.swift */; };
+		385FDF41259A257F00DFAE3A /* CompanyExpensesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385FDF3F259A257F00DFAE3A /* CompanyExpensesTableViewCell.xib */; };
+		3862DC3E258264DC00811855 /* FoodBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3862DC3D258264DC00811855 /* FoodBookViewController.xib */; };
+		386F751E25D69560008FFD82 /* OfficeCabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386F751C25D69560008FFD82 /* OfficeCabViewController.swift */; };
+		386F751F25D69560008FFD82 /* OfficeCabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386F751D25D69560008FFD82 /* OfficeCabViewController.xib */; };
+		388167D425A5F3E200AB1A5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 388167D325A5F3E200AB1A5E /* GoogleService-Info.plist */; };
+		38AF528F23F6677C009C0EF1 /* MyBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AF528D23F6677C009C0EF1 /* MyBookingViewController.swift */; };
+		38AF529023F6677C009C0EF1 /* MyBookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AF528E23F6677C009C0EF1 /* MyBookingViewController.xib */; };
+		38AF529323F66FFE009C0EF1 /* BookingDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AF529123F66FFE009C0EF1 /* BookingDetailTableViewCell.swift */; };
+		38AF529423F66FFE009C0EF1 /* BookingDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AF529223F66FFE009C0EF1 /* BookingDetailTableViewCell.xib */; };
+		38AF529623F6B12E009C0EF1 /* MyBookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AF529523F6B12E009C0EF1 /* MyBookingModel.swift */; };
+		38B40B2623F50D320096EB46 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B40B2423F50D320096EB46 /* LoginViewController.swift */; };
+		38B40B2723F50D320096EB46 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B40B2523F50D320096EB46 /* LoginViewController.xib */; };
+		38C3301423FF9E1000ACDFD0 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C3301323FF9E1000ACDFD0 /* SplashScreen.storyboard */; };
+		38CD3E65258CBD240002F1D5 /* RightMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD3E64258CBD240002F1D5 /* RightMenuHeaderView.swift */; };
+		38CD3E68258CBD410002F1D5 /* RightMenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CD3E67258CBD410002F1D5 /* RightMenuHeaderView.xib */; };
+		38DD2E6C24223C0500C3B8B6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD2E6B24223C0500C3B8B6 /* LocationManager.swift */; };
+		38FB844325A82735007CBE3A /* EmployeesExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB844125A82735007CBE3A /* EmployeesExpensesViewController.swift */; };
+		38FB844425A82735007CBE3A /* EmployeesExpensesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FB844225A82735007CBE3A /* EmployeesExpensesViewController.xib */; };
+		38FB844A25A83267007CBE3A /* EmployeesExpensesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB844825A83267007CBE3A /* EmployeesExpensesTableViewCell.swift */; };
+		38FB844B25A83267007CBE3A /* EmployeesExpensesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FB844925A83267007CBE3A /* EmployeesExpensesTableViewCell.xib */; };
+		4D41E66F240FCE1F00FE6ABD /* CheckLatestVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D41E66E240FCE1F00FE6ABD /* CheckLatestVersion.swift */; };
+		4D588E9E2588D4E900BADD67 /* AddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D588E9C2588D4E900BADD67 /* AddEventTableViewCell.swift */; };
+		4D588E9F2588D4E900BADD67 /* AddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D588E9D2588D4E900BADD67 /* AddEventTableViewCell.xib */; };
+		4D61876E2590FB26005EF772 /* EventListTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61876D2590FB26005EF772 /* EventListTableViewHeaderView.swift */; };
+		4D618774259100CF005EF772 /* EventListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D618772259100CF005EF772 /* EventListTableViewCell.swift */; };
+		4D618775259100CF005EF772 /* EventListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D618773259100CF005EF772 /* EventListTableViewCell.xib */; };
+		4D618778259100F5005EF772 /* EventListTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D618777259100F5005EF772 /* EventListTableViewHeaderView.xib */; };
+		4D6CB1252583CB610078AA20 /* CommomWebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CB1242583CB610078AA20 /* CommomWebViewViewModel.swift */; };
+		4D73D3022583A16C003E7DE8 /* CommonWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73D3002583A16C003E7DE8 /* CommonWebViewViewController.swift */; };
+		4D73D3032583A16C003E7DE8 /* CommonWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D73D3012583A16C003E7DE8 /* CommonWebViewViewController.xib */; };
+		4D83FFC8258A718400AFEA38 /* AddEventHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83FFC7258A718200AFEA38 /* AddEventHeaderView.swift */; };
+		4D83FFCB258A71B000AFEA38 /* AddEventHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D83FFCA258A71B000AFEA38 /* AddEventHeaderView.xib */; };
+		4D8A8FFA25834C9D00C26137 /* AdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A8FF925834C9D00C26137 /* AdminModel.swift */; };
+		4D8C45F825879D3F00448D63 /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C45F725879D3F00448D63 /* AddEventViewModel.swift */; };
+		4D8C45FB2587B48B00448D63 /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C45FA2587B48A00448D63 /* DispatchQueueHelper.swift */; };
+		4DB086F12587518A0087517D /* DatePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB086F02587518A0087517D /* DatePickerManager.swift */; };
+		4DB086F6258763F60087517D /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB086F4258763F60087517D /* AddEventViewController.swift */; };
+		4DB086F7258763F60087517D /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB086F5258763F60087517D /* AddEventViewController.xib */; };
+		D509FBED23FD272400B4D977 /* tr_SaveBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509FBEC23FD272400B4D977 /* tr_SaveBooking.swift */; };
+		D509FBEF23FD415A00B4D977 /* tr_Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509FBEE23FD415A00B4D977 /* tr_Events.swift */; };
+		D59FD792240E6FD6007A11E9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59FD790240E6FD6007A11E9 /* EventsViewController.swift */; };
+		D59FD793240E6FD6007A11E9 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59FD791240E6FD6007A11E9 /* EventsViewController.xib */; };
+		D5AC38A623F2D72000BE62C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38A523F2D72000BE62C3 /* AppDelegate.swift */; };
+		D5AC38A823F2D72000BE62C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38A723F2D72000BE62C3 /* SceneDelegate.swift */; };
+		D5AC38AF23F2D75200BE62C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AC38AE23F2D75200BE62C3 /* Assets.xcassets */; };
+		D5AC38C423F2E42400BE62C3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BA23F2E42000BE62C3 /* AppConstants.swift */; };
+		D5AC38C523F2E42400BE62C3 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BB23F2E42000BE62C3 /* ViewControllerExtension.swift */; };
+		D5AC38C623F2E42400BE62C3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BC23F2E42000BE62C3 /* Colors.swift */; };
+		D5AC38C723F2E42400BE62C3 /* GenericMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BD23F2E42100BE62C3 /* GenericMethods.swift */; };
+		D5AC38C823F2E42400BE62C3 /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BE23F2E42100BE62C3 /* CustomProtocols.swift */; };
+		D5AC38C923F2E42400BE62C3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38BF23F2E42200BE62C3 /* Validation.swift */; };
+		D5AC38CA23F2E42400BE62C3 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38C023F2E42300BE62C3 /* Enum.swift */; };
+		D5AC38CB23F2E42400BE62C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38C123F2E42300BE62C3 /* Extensions.swift */; };
+		D5AC38CC23F2E42400BE62C3 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38C223F2E42400BE62C3 /* CSS.swift */; };
+		D5AC38CD23F2E42400BE62C3 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38C323F2E42400BE62C3 /* CommonUtils.swift */; };
+		D5AC38D323F2E47A00BE62C3 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38CF23F2E47A00BE62C3 /* ReachabilityManager.swift */; };
+		D5AC38D423F2E47A00BE62C3 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38D023F2E47A00BE62C3 /* Toast.swift */; };
+		D5AC38D523F2E47A00BE62C3 /* SwiftPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38D123F2E47A00BE62C3 /* SwiftPopTipView.swift */; };
+		D5AC38D623F2E47A00BE62C3 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC38D223F2E47A00BE62C3 /* iOSDevCenters+GIF.swift */; };
+		D5BCB55E23FBFBB600E46B33 /* BookNowBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCB55C23FBFBB600E46B33 /* BookNowBottomSheetViewController.swift */; };
+		D5BCB55F23FBFBB600E46B33 /* BookNowBottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BCB55D23FBFBB600E46B33 /* BookNowBottomSheetViewController.xib */; };
+		D5F3FC1423F69EBA00FF576D /* QRCodeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3FC1223F69EBA00FF576D /* QRCodeScanViewController.swift */; };
+		D5F3FC1523F69EBA00FF576D /* QRCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F3FC1323F69EBA00FF576D /* QRCodeScanViewController.xib */; };
+		D5F3FC1823F6AC6000FF576D /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3FC1723F6AC6000FF576D /* QRScannerView.swift */; };
+		D5F46BD723F3FC3C00AF5F2C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F46BD523F3FC3C00AF5F2C /* DemoViewController.swift */; };
+		D5F46BD823F3FC3C00AF5F2C /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F46BD623F3FC3C00AF5F2C /* DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		059D4A0365A2F3DA3E53B96F /* Pods-TiffinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinApp.debug.xcconfig"; path = "Target Support Files/Pods-TiffinApp/Pods-TiffinApp.debug.xcconfig"; sourceTree = "<group>"; };
+		380A257B2408EAA30022C91E /* BookingDetailTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailTableHeaderView.swift; sourceTree = "<group>"; };
+		380A257D2408EB510022C91E /* BookingDetailTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingDetailTableHeaderView.xib; sourceTree = "<group>"; };
+		380CFE3F23F530D2009E8EDA /* tr_Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tr_Users.swift; sourceTree = "<group>"; };
+		380CFE4223F533CE009E8EDA /* CommonDBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDBHelper.swift; sourceTree = "<group>"; };
+		380CFE4423F53FE4009E8EDA /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		383015372580B1E100FCB49D /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		383015382580B1E100FCB49D /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		3830153C2580E0C100FCB49D /* EventTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableHeaderView.swift; sourceTree = "<group>"; };
+		3830153F2580E28F00FCB49D /* EventTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableHeaderView.xib; sourceTree = "<group>"; };
+		38353FFC2591C9060041797C /* EmployeesOrderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesOrderHistoryViewController.swift; sourceTree = "<group>"; };
+		38353FFD2591C9060041797C /* EmployeesOrderHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesOrderHistoryViewController.xib; sourceTree = "<group>"; };
+		383540012591D5F50041797C /* EmployeesOrderHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesOrderHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		383540022591D5F50041797C /* EmployeesOrderHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesOrderHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		3838881623FA6A0100E0688B /* PickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerManager.swift; sourceTree = "<group>"; };
+		3838881823FACC3200E0688B /* WebAPIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIHelper.swift; sourceTree = "<group>"; };
+		3838881A23FAD77000E0688B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		384CEDEC2588D086009BAD66 /* AddNewEventTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEventTypeViewController.swift; sourceTree = "<group>"; };
+		384CEDED2588D086009BAD66 /* AddNewEventTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewEventTypeViewController.xib; sourceTree = "<group>"; };
+		384CEDF12588F97F009BAD66 /* AddNewEventTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEventTypeTableViewCell.swift; sourceTree = "<group>"; };
+		384CEDF22588F97F009BAD66 /* AddNewEventTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewEventTypeTableViewCell.xib; sourceTree = "<group>"; };
+		385034882407BB9E00C0C102 /* OrderTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackTableViewCell.swift; sourceTree = "<group>"; };
+		385034892407BB9E00C0C102 /* OrderTrackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTrackTableViewCell.xib; sourceTree = "<group>"; };
+		3850348C2407EEBD00C0C102 /* SwipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeTableViewCell.xib; sourceTree = "<group>"; };
+		3850348D2407EEBE00C0C102 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		3853FA3923F3D28E001C5DA1 /* FoodBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBookViewController.swift; sourceTree = "<group>"; };
+		3853FA3D23F3D374001C5DA1 /* FlippingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippingLabel.swift; sourceTree = "<group>"; };
+		3853FA4023F3D633001C5DA1 /* HeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewController.xib; sourceTree = "<group>"; };
+		3853FA4123F3D633001C5DA1 /* HeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		3853FA4523F3D655001C5DA1 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		3853FA4623F3D655001C5DA1 /* RightMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuTableViewCell.swift; sourceTree = "<group>"; };
+		3853FA4723F3D655001C5DA1 /* RightMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightMenuViewController.xib; sourceTree = "<group>"; };
+		3853FA4823F3D655001C5DA1 /* RightMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightMenuTableViewCell.xib; sourceTree = "<group>"; };
+		3853FA4D23F3D676001C5DA1 /* CommonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
+		3853FA5023F3D6BA001C5DA1 /* CommonWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonWebViewController.xib; sourceTree = "<group>"; };
+		3853FA5123F3D6BA001C5DA1 /* CommonWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonWebViewController.swift; sourceTree = "<group>"; };
+		3855ED202406A5DB001E6D29 /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		3855ED212406A5DB001E6D29 /* CommonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonViewController.xib; sourceTree = "<group>"; };
+		38568C8125D6C2380095808C /* OfficeCabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeCabTableViewCell.swift; sourceTree = "<group>"; };
+		38568C8225D6C2380095808C /* OfficeCabTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfficeCabTableViewCell.xib; sourceTree = "<group>"; };
+		38568CA825D6FA4B0095808C /* DriverOfficeCabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOfficeCabViewController.swift; sourceTree = "<group>"; };
+		38568CA925D6FA4B0095808C /* DriverOfficeCabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverOfficeCabViewController.xib; sourceTree = "<group>"; };
+		385A0D6424038F89004AA3CD /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		385A0D6524038F89004AA3CD /* MyAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAccountViewController.xib; sourceTree = "<group>"; };
+		385ACCE4259AE2DD00F2BC6B /* CompanyExpensesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyExpensesHeaderView.swift; sourceTree = "<group>"; };
+		385ACCE7259AE30700F2BC6B /* CompanyExpensesHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyExpensesHeaderView.xib; sourceTree = "<group>"; };
+		385FDF192599AA9200DFAE3A /* CompanyExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyExpensesViewController.swift; sourceTree = "<group>"; };
+		385FDF1A2599AA9200DFAE3A /* CompanyExpensesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyExpensesViewController.xib; sourceTree = "<group>"; };
+		385FDF3E259A257F00DFAE3A /* CompanyExpensesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyExpensesTableViewCell.swift; sourceTree = "<group>"; };
+		385FDF3F259A257F00DFAE3A /* CompanyExpensesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyExpensesTableViewCell.xib; sourceTree = "<group>"; };
+		3862DC3D258264DC00811855 /* FoodBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodBookViewController.xib; sourceTree = "<group>"; };
+		386F751C25D69560008FFD82 /* OfficeCabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeCabViewController.swift; sourceTree = "<group>"; };
+		386F751D25D69560008FFD82 /* OfficeCabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfficeCabViewController.xib; sourceTree = "<group>"; };
+		388167D325A5F3E200AB1A5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38AF528D23F6677C009C0EF1 /* MyBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingViewController.swift; sourceTree = "<group>"; };
+		38AF528E23F6677C009C0EF1 /* MyBookingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyBookingViewController.xib; sourceTree = "<group>"; };
+		38AF529123F66FFE009C0EF1 /* BookingDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailTableViewCell.swift; sourceTree = "<group>"; };
+		38AF529223F66FFE009C0EF1 /* BookingDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingDetailTableViewCell.xib; sourceTree = "<group>"; };
+		38AF529523F6B12E009C0EF1 /* MyBookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingModel.swift; sourceTree = "<group>"; };
+		38B40B2423F50D320096EB46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38B40B2523F50D320096EB46 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		38C3301323FF9E1000ACDFD0 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		38CD3E64258CBD240002F1D5 /* RightMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuHeaderView.swift; sourceTree = "<group>"; };
+		38CD3E67258CBD410002F1D5 /* RightMenuHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightMenuHeaderView.xib; sourceTree = "<group>"; };
+		38DD2E6B24223C0500C3B8B6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		38FB844125A82735007CBE3A /* EmployeesExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesExpensesViewController.swift; sourceTree = "<group>"; };
+		38FB844225A82735007CBE3A /* EmployeesExpensesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesExpensesViewController.xib; sourceTree = "<group>"; };
+		38FB844825A83267007CBE3A /* EmployeesExpensesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesExpensesTableViewCell.swift; sourceTree = "<group>"; };
+		38FB844925A83267007CBE3A /* EmployeesExpensesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesExpensesTableViewCell.xib; sourceTree = "<group>"; };
+		4AAD5CBE8AE0C875ADED5E7A /* Pods-TiffinApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinApp.release.xcconfig"; path = "Target Support Files/Pods-TiffinApp/Pods-TiffinApp.release.xcconfig"; sourceTree = "<group>"; };
+		4D41E66E240FCE1F00FE6ABD /* CheckLatestVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckLatestVersion.swift; sourceTree = "<group>"; };
+		4D588E9C2588D4E900BADD67 /* AddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventTableViewCell.swift; sourceTree = "<group>"; };
+		4D588E9D2588D4E900BADD67 /* AddEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEventTableViewCell.xib; sourceTree = "<group>"; };
+		4D60A2E125AD96D600030698 /* Sprint SPANact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sprint SPANact.entitlements"; sourceTree = "<group>"; };
+		4D61876D2590FB26005EF772 /* EventListTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewHeaderView.swift; sourceTree = "<group>"; };
+		4D618772259100CF005EF772 /* EventListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewCell.swift; sourceTree = "<group>"; };
+		4D618773259100CF005EF772 /* EventListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListTableViewCell.xib; sourceTree = "<group>"; };
+		4D618777259100F5005EF772 /* EventListTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListTableViewHeaderView.xib; sourceTree = "<group>"; };
+		4D6CB1242583CB610078AA20 /* CommomWebViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommomWebViewViewModel.swift; sourceTree = "<group>"; };
+		4D73D3002583A16C003E7DE8 /* CommonWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebViewViewController.swift; sourceTree = "<group>"; };
+		4D73D3012583A16C003E7DE8 /* CommonWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonWebViewViewController.xib; sourceTree = "<group>"; };
+		4D83FFC7258A718200AFEA38 /* AddEventHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventHeaderView.swift; sourceTree = "<group>"; };
+		4D83FFCA258A71B000AFEA38 /* AddEventHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEventHeaderView.xib; sourceTree = "<group>"; };
+		4D8A8FF925834C9D00C26137 /* AdminModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModel.swift; sourceTree = "<group>"; };
+		4D8C45F725879D3F00448D63 /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
+		4D8C45FA2587B48A00448D63 /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueHelper.swift; sourceTree = "<group>"; };
+		4DB086F02587518A0087517D /* DatePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerManager.swift; sourceTree = "<group>"; };
+		4DB086F4258763F60087517D /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		4DB086F5258763F60087517D /* AddEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+		870479C9D96ABA9D2927C1C0 /* Pods_TiffinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiffinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D509FBEC23FD272400B4D977 /* tr_SaveBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tr_SaveBooking.swift; sourceTree = "<group>"; };
+		D509FBEE23FD415A00B4D977 /* tr_Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tr_Events.swift; sourceTree = "<group>"; };
+		D59FD790240E6FD6007A11E9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		D59FD791240E6FD6007A11E9 /* EventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		D5AC38A223F2D72000BE62C3 /* Sprint SPANact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint SPANact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC38A523F2D72000BE62C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5AC38A723F2D72000BE62C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5AC38AE23F2D75200BE62C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5AC38B323F2D75200BE62C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AC38BA23F2E42000BE62C3 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		D5AC38BB23F2E42000BE62C3 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		D5AC38BC23F2E42000BE62C3 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D5AC38BD23F2E42100BE62C3 /* GenericMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericMethods.swift; sourceTree = "<group>"; };
+		D5AC38BE23F2E42100BE62C3 /* CustomProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProtocols.swift; sourceTree = "<group>"; };
+		D5AC38BF23F2E42200BE62C3 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		D5AC38C023F2E42300BE62C3 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		D5AC38C123F2E42300BE62C3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5AC38C223F2E42400BE62C3 /* CSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
+		D5AC38C323F2E42400BE62C3 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		D5AC38CF23F2E47A00BE62C3 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		D5AC38D023F2E47A00BE62C3 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		D5AC38D123F2E47A00BE62C3 /* SwiftPopTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPopTipView.swift; sourceTree = "<group>"; };
+		D5AC38D223F2E47A00BE62C3 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		D5AC38D823F2E4D100BE62C3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D5AC38D923F2E4D100BE62C3 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D5AC38DA23F2E4D200BE62C3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D5AC38DB23F2E4D300BE62C3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D5BCB55C23FBFBB600E46B33 /* BookNowBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowBottomSheetViewController.swift; sourceTree = "<group>"; };
+		D5BCB55D23FBFBB600E46B33 /* BookNowBottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookNowBottomSheetViewController.xib; sourceTree = "<group>"; };
+		D5F3FC1223F69EBA00FF576D /* QRCodeScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanViewController.swift; sourceTree = "<group>"; };
+		D5F3FC1323F69EBA00FF576D /* QRCodeScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeScanViewController.xib; sourceTree = "<group>"; };
+		D5F3FC1723F6AC6000FF576D /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		D5F46BD523F3FC3C00AF5F2C /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		D5F46BD623F3FC3C00AF5F2C /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		D5F46BD923F403BB00AF5F2C /* TiffinApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiffinApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5AC389F23F2D72000BE62C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A03A8628D9495CA8AC7197 /* Pods_TiffinApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380CFE3E23F52EC0009E8EDA /* TiffinApp.Realm */ = {
+			isa = PBXGroup;
+			children = (
+				380CFE3F23F530D2009E8EDA /* tr_Users.swift */,
+				D509FBEC23FD272400B4D977 /* tr_SaveBooking.swift */,
+				D509FBEE23FD415A00B4D977 /* tr_Events.swift */,
+			);
+			name = TiffinApp.Realm;
+			sourceTree = "<group>";
+		};
+		380CFE4123F533AE009E8EDA /* TiffinApp.Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3838881823FACC3200E0688B /* WebAPIHelper.swift */,
+				380CFE4223F533CE009E8EDA /* CommonDBHelper.swift */,
+			);
+			path = TiffinApp.Helpers;
+			sourceTree = "<group>";
+		};
+		38353FFB2591C6E90041797C /* EmployessOrderHistory */ = {
+			isa = PBXGroup;
+			children = (
+				38353FFC2591C9060041797C /* EmployeesOrderHistoryViewController.swift */,
+				38353FFD2591C9060041797C /* EmployeesOrderHistoryViewController.xib */,
+				383540012591D5F50041797C /* EmployeesOrderHistoryTableViewCell.swift */,
+				383540022591D5F50041797C /* EmployeesOrderHistoryTableViewCell.xib */,
+			);
+			name = EmployessOrderHistory;
+			sourceTree = "<group>";
+		};
+		3853FA3723F3D1D0001C5DA1 /* TiffinApp.ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				386F751B25D6951E008FFD82 /* OfficeCab */,
+				38FB844025A825AA007CBE3A /* EmployeesExpenses */,
+				385FDF182599AA3900DFAE3A /* CompanyExpenses */,
+				38353FFB2591C6E90041797C /* EmployessOrderHistory */,
+				4DB086F3258762620087517D /* EventAdd */,
+				4D537D0B2410C60C00AECA97 /* Menu */,
+				D59FD78F240E6F5A007A11E9 /* Events */,
+				3855ED1F2406A539001E6D29 /* CommonView */,
+				385A0D6324038F67004AA3CD /* MyAccount */,
+				D5F3FC1123F69E5C00FF576D /* QRcodeScan */,
+				38AF528C23F6664D009C0EF1 /* MyBooking */,
+				38B40B2323F50CDC0096EB46 /* SignIn */,
+				3853FA4F23F3D6A8001C5DA1 /* CommonWebView */,
+				3853FA4423F3D63E001C5DA1 /* RightMenu */,
+				3853FA3F23F3D626001C5DA1 /* HeaderView */,
+				3853FA3823F3D220001C5DA1 /* FoodBook */,
+				4D73D3052583A176003E7DE8 /* CommomWebView */,
+			);
+			name = TiffinApp.ViewControllers;
+			sourceTree = "<group>";
+		};
+		3853FA3823F3D220001C5DA1 /* FoodBook */ = {
+			isa = PBXGroup;
+			children = (
+				4D61876C2590F8A0005EF772 /* EventsListTableViewCell */,
+				3850348D2407EEBE00C0C102 /* SwipeTableViewCell.swift */,
+				3850348C2407EEBD00C0C102 /* SwipeTableViewCell.xib */,
+				3853FA3923F3D28E001C5DA1 /* FoodBookViewController.swift */,
+				3862DC3D258264DC00811855 /* FoodBookViewController.xib */,
+				D5F46BD523F3FC3C00AF5F2C /* DemoViewController.swift */,
+				D5F46BD623F3FC3C00AF5F2C /* DemoViewController.xib */,
+				D5BCB55C23FBFBB600E46B33 /* BookNowBottomSheetViewController.swift */,
+				D5BCB55D23FBFBB600E46B33 /* BookNowBottomSheetViewController.xib */,
+				385034882407BB9E00C0C102 /* OrderTrackTableViewCell.swift */,
+				385034892407BB9E00C0C102 /* OrderTrackTableViewCell.xib */,
+				383015372580B1E100FCB49D /* EventTableViewCell.swift */,
+				383015382580B1E100FCB49D /* EventTableViewCell.xib */,
+				3830153C2580E0C100FCB49D /* EventTableHeaderView.swift */,
+				3830153F2580E28F00FCB49D /* EventTableHeaderView.xib */,
+			);
+			name = FoodBook;
+			sourceTree = "<group>";
+		};
+		3853FA3F23F3D626001C5DA1 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				3853FA4123F3D633001C5DA1 /* HeaderViewController.swift */,
+				3853FA4023F3D633001C5DA1 /* HeaderViewController.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		3853FA4423F3D63E001C5DA1 /* RightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3853FA4523F3D655001C5DA1 /* RightMenuViewController.swift */,
+				3853FA4723F3D655001C5DA1 /* RightMenuViewController.xib */,
+				3853FA4623F3D655001C5DA1 /* RightMenuTableViewCell.swift */,
+				3853FA4823F3D655001C5DA1 /* RightMenuTableViewCell.xib */,
+				38CD3E64258CBD240002F1D5 /* RightMenuHeaderView.swift */,
+				38CD3E67258CBD410002F1D5 /* RightMenuHeaderView.xib */,
+			);
+			name = RightMenu;
+			sourceTree = "<group>";
+		};
+		3853FA4F23F3D6A8001C5DA1 /* CommonWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3853FA5123F3D6BA001C5DA1 /* CommonWebViewController.swift */,
+				3853FA5023F3D6BA001C5DA1 /* CommonWebViewController.xib */,
+			);
+			path = CommonWebView;
+			sourceTree = "<group>";
+		};
+		3853FA5423F3FEA8001C5DA1 /* TiffinApp.Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC38D823F2E4D100BE62C3 /* Roboto-Bold.ttf */,
+				D5AC38D923F2E4D100BE62C3 /* Roboto-Italic.ttf */,
+				D5AC38DB23F2E4D300BE62C3 /* Roboto-Medium.ttf */,
+				D5AC38DA23F2E4D200BE62C3 /* Roboto-Regular.ttf */,
+			);
+			name = TiffinApp.Fonts;
+			sourceTree = "<group>";
+		};
+		3855ED1F2406A539001E6D29 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				3855ED202406A5DB001E6D29 /* CommonViewController.swift */,
+				3855ED212406A5DB001E6D29 /* CommonViewController.xib */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
+		385A0D6324038F67004AA3CD /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				385A0D6424038F89004AA3CD /* MyAccountViewController.swift */,
+				385A0D6524038F89004AA3CD /* MyAccountViewController.xib */,
+			);
+			name = MyAccount;
+			sourceTree = "<group>";
+		};
+		385FDF182599AA3900DFAE3A /* CompanyExpenses */ = {
+			isa = PBXGroup;
+			children = (
+				385FDF192599AA9200DFAE3A /* CompanyExpensesViewController.swift */,
+				385FDF1A2599AA9200DFAE3A /* CompanyExpensesViewController.xib */,
+				385FDF3E259A257F00DFAE3A /* CompanyExpensesTableViewCell.swift */,
+				385FDF3F259A257F00DFAE3A /* CompanyExpensesTableViewCell.xib */,
+				385ACCE4259AE2DD00F2BC6B /* CompanyExpensesHeaderView.swift */,
+				385ACCE7259AE30700F2BC6B /* CompanyExpensesHeaderView.xib */,
+			);
+			name = CompanyExpenses;
+			sourceTree = "<group>";
+		};
+		386F751B25D6951E008FFD82 /* OfficeCab */ = {
+			isa = PBXGroup;
+			children = (
+				386F751C25D69560008FFD82 /* OfficeCabViewController.swift */,
+				386F751D25D69560008FFD82 /* OfficeCabViewController.xib */,
+				38568C8125D6C2380095808C /* OfficeCabTableViewCell.swift */,
+				38568C8225D6C2380095808C /* OfficeCabTableViewCell.xib */,
+				38568CA825D6FA4B0095808C /* DriverOfficeCabViewController.swift */,
+				38568CA925D6FA4B0095808C /* DriverOfficeCabViewController.xib */,
+			);
+			name = OfficeCab;
+			sourceTree = "<group>";
+		};
+		38AF528C23F6664D009C0EF1 /* MyBooking */ = {
+			isa = PBXGroup;
+			children = (
+				38AF528D23F6677C009C0EF1 /* MyBookingViewController.swift */,
+				38AF528E23F6677C009C0EF1 /* MyBookingViewController.xib */,
+				38AF529123F66FFE009C0EF1 /* BookingDetailTableViewCell.swift */,
+				38AF529223F66FFE009C0EF1 /* BookingDetailTableViewCell.xib */,
+				380A257B2408EAA30022C91E /* BookingDetailTableHeaderView.swift */,
+				380A257D2408EB510022C91E /* BookingDetailTableHeaderView.xib */,
+			);
+			path = MyBooking;
+			sourceTree = "<group>";
+		};
+		38B40B2323F50CDC0096EB46 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				38B40B2423F50D320096EB46 /* LoginViewController.swift */,
+				38B40B2523F50D320096EB46 /* LoginViewController.xib */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		38FB844025A825AA007CBE3A /* EmployeesExpenses */ = {
+			isa = PBXGroup;
+			children = (
+				38FB844125A82735007CBE3A /* EmployeesExpensesViewController.swift */,
+				38FB844225A82735007CBE3A /* EmployeesExpensesViewController.xib */,
+				38FB844825A83267007CBE3A /* EmployeesExpensesTableViewCell.swift */,
+				38FB844925A83267007CBE3A /* EmployeesExpensesTableViewCell.xib */,
+			);
+			name = EmployeesExpenses;
+			sourceTree = "<group>";
+		};
+		4D537D0B2410C60C00AECA97 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		4D569E14258BA32E00BF858B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4D588E9C2588D4E900BADD67 /* AddEventTableViewCell.swift */,
+				4D588E9D2588D4E900BADD67 /* AddEventTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4D588EA12588F60700BADD67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D8C45F725879D3F00448D63 /* AddEventViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D61876C2590F8A0005EF772 /* EventsListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4D6187712590FB31005EF772 /* TableViewHeader */,
+				4D618772259100CF005EF772 /* EventListTableViewCell.swift */,
+				4D618773259100CF005EF772 /* EventListTableViewCell.xib */,
+			);
+			name = EventsListTableViewCell;
+			sourceTree = "<group>";
+		};
+		4D6187712590FB31005EF772 /* TableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				4D61876D2590FB26005EF772 /* EventListTableViewHeaderView.swift */,
+				4D618777259100F5005EF772 /* EventListTableViewHeaderView.xib */,
+			);
+			name = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		4D73D3052583A176003E7DE8 /* CommomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				4D73D3002583A16C003E7DE8 /* CommonWebViewViewController.swift */,
+				4D73D3012583A16C003E7DE8 /* CommonWebViewViewController.xib */,
+				4D6CB1242583CB610078AA20 /* CommomWebViewViewModel.swift */,
+			);
+			name = CommomWebView;
+			sourceTree = "<group>";
+		};
+		4D83FFC6258A70C800AFEA38 /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				4D83FFC7258A718200AFEA38 /* AddEventHeaderView.swift */,
+				4D83FFCA258A71B000AFEA38 /* AddEventHeaderView.xib */,
+			);
+			name = SectionHeader;
+			sourceTree = "<group>";
+		};
+		4DB086F3258762620087517D /* EventAdd */ = {
+			isa = PBXGroup;
+			children = (
+				4D569E14258BA32E00BF858B /* TableViewCell */,
+				4D83FFC6258A70C800AFEA38 /* SectionHeader */,
+				4D588EA12588F60700BADD67 /* ViewModel */,
+				4DB086F4258763F60087517D /* AddEventViewController.swift */,
+				4DB086F5258763F60087517D /* AddEventViewController.xib */,
+				384CEDEC2588D086009BAD66 /* AddNewEventTypeViewController.swift */,
+				384CEDED2588D086009BAD66 /* AddNewEventTypeViewController.xib */,
+				384CEDF12588F97F009BAD66 /* AddNewEventTypeTableViewCell.swift */,
+				384CEDF22588F97F009BAD66 /* AddNewEventTypeTableViewCell.xib */,
+			);
+			name = EventAdd;
+			sourceTree = "<group>";
+		};
+		A2C1B8D2DB0AA7BC4F89EDCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059D4A0365A2F3DA3E53B96F /* Pods-TiffinApp.debug.xcconfig */,
+				4AAD5CBE8AE0C875ADED5E7A /* Pods-TiffinApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D59FD78F240E6F5A007A11E9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				D59FD790240E6FD6007A11E9 /* EventsViewController.swift */,
+				D59FD791240E6FD6007A11E9 /* EventsViewController.xib */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		D5AC389923F2D72000BE62C3 = {
+			isa = PBXGroup;
+			children = (
+				D5AC38A423F2D72000BE62C3 /* TiffinApp */,
+				D5AC38A323F2D72000BE62C3 /* Products */,
+				A2C1B8D2DB0AA7BC4F89EDCF /* Pods */,
+				F204F89D47B5D84A8B1FAB21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5AC38A323F2D72000BE62C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC38A223F2D72000BE62C3 /* Sprint SPANact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AC38A423F2D72000BE62C3 /* TiffinApp */ = {
+			isa = PBXGroup;
+			children = (
+				4D60A2E125AD96D600030698 /* Sprint SPANact.entitlements */,
+				D5AC38A523F2D72000BE62C3 /* AppDelegate.swift */,
+				D5AC38A723F2D72000BE62C3 /* SceneDelegate.swift */,
+				D5F46BD923F403BB00AF5F2C /* TiffinApp-Bridging-Header.h */,
+				3853FA5423F3FEA8001C5DA1 /* TiffinApp.Fonts */,
+				380CFE4123F533AE009E8EDA /* TiffinApp.Helpers */,
+				D5AC38DC23F2E4E900BE62C3 /* TiffinApp.Model */,
+				380CFE3E23F52EC0009E8EDA /* TiffinApp.Realm */,
+				D5AC38CE23F2E44800BE62C3 /* TiffinApp.Services */,
+				D5AC38B923F2E3D000BE62C3 /* TiffinApp.Utilities */,
+				3853FA3723F3D1D0001C5DA1 /* TiffinApp.ViewControllers */,
+				D5AC38AE23F2D75200BE62C3 /* Assets.xcassets */,
+				388167D325A5F3E200AB1A5E /* GoogleService-Info.plist */,
+				D5AC38B323F2D75200BE62C3 /* Info.plist */,
+				38C3301323FF9E1000ACDFD0 /* SplashScreen.storyboard */,
+			);
+			path = TiffinApp;
+			sourceTree = "<group>";
+		};
+		D5AC38B923F2E3D000BE62C3 /* TiffinApp.Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D41E66E240FCE1F00FE6ABD /* CheckLatestVersion.swift */,
+				D5AC38BA23F2E42000BE62C3 /* AppConstants.swift */,
+				D5AC38BC23F2E42000BE62C3 /* Colors.swift */,
+				D5AC38C323F2E42400BE62C3 /* CommonUtils.swift */,
+				D5AC38C223F2E42400BE62C3 /* CSS.swift */,
+				D5AC38BE23F2E42100BE62C3 /* CustomProtocols.swift */,
+				D5AC38C123F2E42300BE62C3 /* Extensions.swift */,
+				D5AC38C023F2E42300BE62C3 /* Enum.swift */,
+				D5AC38BD23F2E42100BE62C3 /* GenericMethods.swift */,
+				3838881A23FAD77000E0688B /* Parser.swift */,
+				D5AC38BF23F2E42200BE62C3 /* Validation.swift */,
+				D5AC38BB23F2E42000BE62C3 /* ViewControllerExtension.swift */,
+				38DD2E6B24223C0500C3B8B6 /* LocationManager.swift */,
+				4DB086F02587518A0087517D /* DatePickerManager.swift */,
+				4D8C45FA2587B48A00448D63 /* DispatchQueueHelper.swift */,
+			);
+			path = TiffinApp.Utilities;
+			sourceTree = "<group>";
+		};
+		D5AC38CE23F2E44800BE62C3 /* TiffinApp.Services */ = {
+			isa = PBXGroup;
+			children = (
+				3838881623FA6A0100E0688B /* PickerManager.swift */,
+				3853FA3D23F3D374001C5DA1 /* FlippingLabel.swift */,
+				D5AC38D223F2E47A00BE62C3 /* iOSDevCenters+GIF.swift */,
+				D5AC38CF23F2E47A00BE62C3 /* ReachabilityManager.swift */,
+				D5AC38D123F2E47A00BE62C3 /* SwiftPopTipView.swift */,
+				D5AC38D023F2E47A00BE62C3 /* Toast.swift */,
+			);
+			path = TiffinApp.Services;
+			sourceTree = "<group>";
+		};
+		D5AC38DC23F2E4E900BE62C3 /* TiffinApp.Model */ = {
+			isa = PBXGroup;
+			children = (
+				3853FA4D23F3D676001C5DA1 /* CommonModel.swift */,
+				380CFE4423F53FE4009E8EDA /* UserDetailModel.swift */,
+				38AF529523F6B12E009C0EF1 /* MyBookingModel.swift */,
+				4D8A8FF925834C9D00C26137 /* AdminModel.swift */,
+			);
+			path = TiffinApp.Model;
+			sourceTree = "<group>";
+		};
+		D5F3FC1123F69E5C00FF576D /* QRcodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				D5F3FC1623F6AC4D00FF576D /* QRScanViewClass */,
+				D5F3FC1223F69EBA00FF576D /* QRCodeScanViewController.swift */,
+				D5F3FC1323F69EBA00FF576D /* QRCodeScanViewController.xib */,
+			);
+			name = QRcodeScan;
+			sourceTree = "<group>";
+		};
+		D5F3FC1623F6AC4D00FF576D /* QRScanViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				D5F3FC1723F6AC6000FF576D /* QRScannerView.swift */,
+			);
+			name = QRScanViewClass;
+			sourceTree = "<group>";
+		};
+		F204F89D47B5D84A8B1FAB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870479C9D96ABA9D2927C1C0 /* Pods_TiffinApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5AC38A123F2D72000BE62C3 /* TiffinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5AC38B623F2D75200BE62C3 /* Build configuration list for PBXNativeTarget "TiffinApp" */;
+			buildPhases = (
+				7F2B38C572FEA64334DB862E /* [CP] Check Pods Manifest.lock */,
+				D5AC389E23F2D72000BE62C3 /* Sources */,
+				D5AC389F23F2D72000BE62C3 /* Frameworks */,
+				D5AC38A023F2D72000BE62C3 /* Resources */,
+				3888EA2825A5882E008644B6 /* ShellScript */,
+				27FE6CED5ED27CD2C98986C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiffinApp;
+			productName = TiffinApp;
+			productReference = D5AC38A223F2D72000BE62C3 /* Sprint SPANact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5AC389A23F2D72000BE62C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D5AC38A123F2D72000BE62C3 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = D5AC389D23F2D72000BE62C3 /* Build configuration list for PBXProject "TiffinApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5AC389923F2D72000BE62C3;
+			productRefGroup = D5AC38A323F2D72000BE62C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5AC38A123F2D72000BE62C3 /* TiffinApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5AC38A023F2D72000BE62C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38568C8425D6C2380095808C /* OfficeCabTableViewCell.xib in Resources */,
+				38B40B2723F50D320096EB46 /* LoginViewController.xib in Resources */,
+				38C3301423FF9E1000ACDFD0 /* SplashScreen.storyboard in Resources */,
+				4D618775259100CF005EF772 /* EventListTableViewCell.xib in Resources */,
+				4D588E9F2588D4E900BADD67 /* AddEventTableViewCell.xib in Resources */,
+				384CEDF42588F97F009BAD66 /* AddNewEventTypeTableViewCell.xib in Resources */,
+				D5BCB55F23FBFBB600E46B33 /* BookNowBottomSheetViewController.xib in Resources */,
+				3853FA5223F3D6BA001C5DA1 /* CommonWebViewController.xib in Resources */,
+				380A257E2408EB510022C91E /* BookingDetailTableHeaderView.xib in Resources */,
+				3855ED232406A5DB001E6D29 /* CommonViewController.xib in Resources */,
+				D5F46BD823F3FC3C00AF5F2C /* DemoViewController.xib in Resources */,
+				38568CAB25D6FA4C0095808C /* DriverOfficeCabViewController.xib in Resources */,
+				4D618778259100F5005EF772 /* EventListTableViewHeaderView.xib in Resources */,
+				383540042591D5F50041797C /* EmployeesOrderHistoryTableViewCell.xib in Resources */,
+				38FB844425A82735007CBE3A /* EmployeesExpensesViewController.xib in Resources */,
+				385A0D6724038F89004AA3CD /* MyAccountViewController.xib in Resources */,
+				D5AC38AF23F2D75200BE62C3 /* Assets.xcassets in Resources */,
+				3853FA4223F3D633001C5DA1 /* HeaderViewController.xib in Resources */,
+				3853FA5523F4004E001C5DA1 /* Roboto-Bold.ttf in Resources */,
+				38AF529423F66FFE009C0EF1 /* BookingDetailTableViewCell.xib in Resources */,
+				388167D425A5F3E200AB1A5E /* GoogleService-Info.plist in Resources */,
+				D59FD793240E6FD6007A11E9 /* EventsViewController.xib in Resources */,
+				4DB086F7258763F60087517D /* AddEventViewController.xib in Resources */,
+				3850348E2407EEBE00C0C102 /* SwipeTableViewCell.xib in Resources */,
+				385ACCE8259AE30700F2BC6B /* CompanyExpensesHeaderView.xib in Resources */,
+				3830153A2580B1E100FCB49D /* EventTableViewCell.xib in Resources */,
+				3853FA5823F4004E001C5DA1 /* Roboto-Regular.ttf in Resources */,
+				3853FA4B23F3D655001C5DA1 /* RightMenuViewController.xib in Resources */,
+				385FDF1C2599AA9200DFAE3A /* CompanyExpensesViewController.xib in Resources */,
+				3862DC3E258264DC00811855 /* FoodBookViewController.xib in Resources */,
+				38CD3E68258CBD410002F1D5 /* RightMenuHeaderView.xib in Resources */,
+				3853FA5623F4004E001C5DA1 /* Roboto-Italic.ttf in Resources */,
+				38FB844B25A83267007CBE3A /* EmployeesExpensesTableViewCell.xib in Resources */,
+				4D83FFCB258A71B000AFEA38 /* AddEventHeaderView.xib in Resources */,
+				383015402580E28F00FCB49D /* EventTableHeaderView.xib in Resources */,
+				3853FA5723F4004E001C5DA1 /* Roboto-Medium.ttf in Resources */,
+				38353FFF2591C9060041797C /* EmployeesOrderHistoryViewController.xib in Resources */,
+				38AF529023F6677C009C0EF1 /* MyBookingViewController.xib in Resources */,
+				386F751F25D69560008FFD82 /* OfficeCabViewController.xib in Resources */,
+				4D73D3032583A16C003E7DE8 /* CommonWebViewViewController.xib in Resources */,
+				3853FA4C23F3D655001C5DA1 /* RightMenuTableViewCell.xib in Resources */,
+				D5F3FC1523F69EBA00FF576D /* QRCodeScanViewController.xib in Resources */,
+				3850348B2407BB9E00C0C102 /* OrderTrackTableViewCell.xib in Resources */,
+				385FDF41259A257F00DFAE3A /* CompanyExpensesTableViewCell.xib in Resources */,
+				384CEDEF2588D086009BAD66 /* AddNewEventTypeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27FE6CED5ED27CD2C98986C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiffinApp/Pods-TiffinApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiffinApp/Pods-TiffinApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiffinApp/Pods-TiffinApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3888EA2825A5882E008644B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		7F2B38C572FEA64334DB862E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiffinApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5AC389E23F2D72000BE62C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3830153D2580E0C100FCB49D /* EventTableHeaderView.swift in Sources */,
+				38DD2E6C24223C0500C3B8B6 /* LocationManager.swift in Sources */,
+				4D83FFC8258A718400AFEA38 /* AddEventHeaderView.swift in Sources */,
+				38FB844325A82735007CBE3A /* EmployeesExpensesViewController.swift in Sources */,
+				38568C8325D6C2380095808C /* OfficeCabTableViewCell.swift in Sources */,
+				38FB844A25A83267007CBE3A /* EmployeesExpensesTableViewCell.swift in Sources */,
+				380CFE4323F533CE009E8EDA /* CommonDBHelper.swift in Sources */,
+				3838881723FA6A0100E0688B /* PickerManager.swift in Sources */,
+				385A0D6624038F89004AA3CD /* MyAccountViewController.swift in Sources */,
+				D5AC38CD23F2E42400BE62C3 /* CommonUtils.swift in Sources */,
+				3850348A2407BB9E00C0C102 /* OrderTrackTableViewCell.swift in Sources */,
+				D5AC38C823F2E42400BE62C3 /* CustomProtocols.swift in Sources */,
+				D5AC38D323F2E47A00BE62C3 /* ReachabilityManager.swift in Sources */,
+				4DB086F12587518A0087517D /* DatePickerManager.swift in Sources */,
+				4D73D3022583A16C003E7DE8 /* CommonWebViewViewController.swift in Sources */,
+				38CD3E65258CBD240002F1D5 /* RightMenuHeaderView.swift in Sources */,
+				D5F3FC1823F6AC6000FF576D /* QRScannerView.swift in Sources */,
+				386F751E25D69560008FFD82 /* OfficeCabViewController.swift in Sources */,
+				3853FA4A23F3D655001C5DA1 /* RightMenuTableViewCell.swift in Sources */,
+				3855ED222406A5DB001E6D29 /* CommonViewController.swift in Sources */,
+				3853FA3E23F3D374001C5DA1 /* FlippingLabel.swift in Sources */,
+				3853FA4923F3D655001C5DA1 /* RightMenuViewController.swift in Sources */,
+				D5F3FC1423F69EBA00FF576D /* QRCodeScanViewController.swift in Sources */,
+				4D8C45FB2587B48B00448D63 /* DispatchQueueHelper.swift in Sources */,
+				383540032591D5F50041797C /* EmployeesOrderHistoryTableViewCell.swift in Sources */,
+				38568CAA25D6FA4B0095808C /* DriverOfficeCabViewController.swift in Sources */,
+				4D6CB1252583CB610078AA20 /* CommomWebViewViewModel.swift in Sources */,
+				380A257C2408EAA30022C91E /* BookingDetailTableHeaderView.swift in Sources */,
+				D509FBED23FD272400B4D977 /* tr_SaveBooking.swift in Sources */,
+				3853FA4E23F3D676001C5DA1 /* CommonModel.swift in Sources */,
+				3853FA3B23F3D28E001C5DA1 /* FoodBookViewController.swift in Sources */,
+				D5AC38D623F2E47A00BE62C3 /* iOSDevCenters+GIF.swift in Sources */,
+				385FDF1B2599AA9200DFAE3A /* CompanyExpensesViewController.swift in Sources */,
+				385ACCE5259AE2DD00F2BC6B /* CompanyExpensesHeaderView.swift in Sources */,
+				D5AC38D523F2E47A00BE62C3 /* SwiftPopTipView.swift in Sources */,
+				D5AC38C623F2E42400BE62C3 /* Colors.swift in Sources */,
+				4DB086F6258763F60087517D /* AddEventViewController.swift in Sources */,
+				D5AC38A623F2D72000BE62C3 /* AppDelegate.swift in Sources */,
+				4D618774259100CF005EF772 /* EventListTableViewCell.swift in Sources */,
+				D5BCB55E23FBFBB600E46B33 /* BookNowBottomSheetViewController.swift in Sources */,
+				D5AC38C923F2E42400BE62C3 /* Validation.swift in Sources */,
+				384CEDEE2588D086009BAD66 /* AddNewEventTypeViewController.swift in Sources */,
+				383015392580B1E100FCB49D /* EventTableViewCell.swift in Sources */,
+				4D61876E2590FB26005EF772 /* EventListTableViewHeaderView.swift in Sources */,
+				3853FA5323F3D6BA001C5DA1 /* CommonWebViewController.swift in Sources */,
+				D509FBEF23FD415A00B4D977 /* tr_Events.swift in Sources */,
+				D5AC38D423F2E47A00BE62C3 /* Toast.swift in Sources */,
+				3850348F2407EEBE00C0C102 /* SwipeTableViewCell.swift in Sources */,
+				D5F46BD723F3FC3C00AF5F2C /* DemoViewController.swift in Sources */,
+				4D8C45F825879D3F00448D63 /* AddEventViewModel.swift in Sources */,
+				D5AC38CC23F2E42400BE62C3 /* CSS.swift in Sources */,
+				4D588E9E2588D4E900BADD67 /* AddEventTableViewCell.swift in Sources */,
+				384CEDF32588F97F009BAD66 /* AddNewEventTypeTableViewCell.swift in Sources */,
+				D5AC38A823F2D72000BE62C3 /* SceneDelegate.swift in Sources */,
+				385FDF40259A257F00DFAE3A /* CompanyExpensesTableViewCell.swift in Sources */,
+				3838881923FACC3200E0688B /* WebAPIHelper.swift in Sources */,
+				38AF528F23F6677C009C0EF1 /* MyBookingViewController.swift in Sources */,
+				D5AC38C523F2E42400BE62C3 /* ViewControllerExtension.swift in Sources */,
+				D5AC38C423F2E42400BE62C3 /* AppConstants.swift in Sources */,
+				380CFE4023F530D2009E8EDA /* tr_Users.swift in Sources */,
+				D5AC38CA23F2E42400BE62C3 /* Enum.swift in Sources */,
+				38AF529623F6B12E009C0EF1 /* MyBookingModel.swift in Sources */,
+				380CFE4523F53FE5009E8EDA /* UserDetailModel.swift in Sources */,
+				3853FA4323F3D633001C5DA1 /* HeaderViewController.swift in Sources */,
+				D5AC38CB23F2E42400BE62C3 /* Extensions.swift in Sources */,
+				4D8A8FFA25834C9D00C26137 /* AdminModel.swift in Sources */,
+				4D41E66F240FCE1F00FE6ABD /* CheckLatestVersion.swift in Sources */,
+				38353FFE2591C9060041797C /* EmployeesOrderHistoryViewController.swift in Sources */,
+				3838881B23FAD77000E0688B /* Parser.swift in Sources */,
+				38B40B2623F50D320096EB46 /* LoginViewController.swift in Sources */,
+				38AF529323F66FFE009C0EF1 /* BookingDetailTableViewCell.swift in Sources */,
+				D5AC38C723F2E42400BE62C3 /* GenericMethods.swift in Sources */,
+				D59FD792240E6FD6007A11E9 /* EventsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5AC38B423F2D75200BE62C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5AC38B523F2D75200BE62C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5AC38B723F2D75200BE62C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059D4A0365A2F3DA3E53B96F /* Pods-TiffinApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "TiffinApp/Sprint SPANact.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.2.2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X372X3URRM;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = TiffinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spanenterprises.SPANActivity;
+				PRODUCT_NAME = "Sprint SPANact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SPANact Live Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "./TiffinApp/TiffinApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5AC38B823F2D75200BE62C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAD5CBE8AE0C875ADED5E7A /* Pods-TiffinApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "TiffinApp/Sprint SPANact.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.2.2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X372X3URRM;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = TiffinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spanenterprises.SPANActivity;
+				PRODUCT_NAME = "Sprint SPANact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SPANact Live Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "./TiffinApp/TiffinApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5AC389D23F2D72000BE62C3 /* Build configuration list for PBXProject "TiffinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AC38B423F2D75200BE62C3 /* Debug */,
+				D5AC38B523F2D75200BE62C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5AC38B623F2D75200BE62C3 /* Build configuration list for PBXNativeTarget "TiffinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AC38B723F2D75200BE62C3 /* Debug */,
+				D5AC38B823F2D75200BE62C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5AC389A23F2D72000BE62C3 /* Project object */;
+}
